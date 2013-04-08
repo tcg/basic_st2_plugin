@@ -9,13 +9,13 @@ class SelectionToUpperCommand(sublime_plugin.TextCommand):
 
     Thus, to run this command:
         > CTRL+` to open the console.
-        > view.run_command('my_new')
+        > view.run_command('selection_to_upper')
     """
 
     def run(self, edit):
         selections = self.view.sel()
         # Begin our own single Undo group:
-        edit = self.view.begin_edit('my_new')
+        edit = self.view.begin_edit('selection_to_upper')
 
         for selection in selections:
             # Get the selected string, if any.
