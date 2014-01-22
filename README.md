@@ -1,6 +1,6 @@
-### A collection of extremely basic plugin examples, for my friends using Sublime Text 2.
+### An extremely basic plugin example, for my friends using Sublime Text 2.
 
-Drop any of these subdirectories into your Packages Directory (Preferences > Browse Packages) to "install" them.
+Drop this subdirectory into your Packages directory (Preferences > Browse Packages) to "install" it.
 
 ## Currently
 
